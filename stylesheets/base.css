@@ -1,29 +1,4 @@
 @charset "UTF-8";
-/*============MCD TYPEFACE============*/
-@font-face {
-  font-family: 'CLight';
-  src: local("CLight"), url("../fonts/CLight.otf") format("opentype");
-}
-@font-face {
-  font-family: 'CBold';
-  src: local("CBold"), url("../fonts/CBold.otf") format("opentype");
-}
-@font-face {
-  font-family: 'CLightItalic';
-  src: local("CLightItalic"), url("../fonts/CLightItalic.otf") format("opentype");
-}
-@font-face {
-  font-family: 'CMedium';
-  src: local("CMedium"), url("../fonts/CMedium.otf") format("opentype");
-}
-@font-face {
-  font-family: 'CRegular';
-  src: local("CRegular"), url("../fonts/CRegular.otf") format("opentype");
-}
-@font-face {
-  font-family: 'CRegularItalic';
-  src: local("CRegularItalic"), url("../fonts/CRegularItalic.otf") format("opentype");
-}
 /*============CUSTOMIZING FOUNDATION STYLE============*/
 /*============SELF-DEFINED FONTS============*/
 /*============MCD COLORS============*/
@@ -118,7 +93,7 @@ body {
   color: #222;
   padding: 0;
   margin: 0;
-  font-family: "CRegular", sans-serif;
+  font-family: sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -1732,7 +1707,7 @@ select {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "CRegular", sans-serif;
+  font-family: sans-serif;
   font-size: 1rem;
 }
 /* line 143, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
@@ -2439,7 +2414,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "CRegular", sans-serif;
+  font-family: sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -4264,7 +4239,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "CRegular", sans-serif;
+  font-family: sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -4902,7 +4877,7 @@ kbd {
 /* line 91, ../bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "CRegular", sans-serif;
+  font-family: sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -5473,7 +5448,7 @@ ul.pagination li {
   color: #EEEEEE;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "CRegular", sans-serif;
+  font-family: sans-serif;
 }
 /* line 143, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -5483,7 +5458,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "CRegular", sans-serif;
+  font-family: sans-serif;
 }
 /* line 144, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -5868,7 +5843,7 @@ dialog[open] {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "CRegular", sans-serif;
+  font-family: sans-serif;
 }
 /* line 70, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -5892,7 +5867,7 @@ dialog[open] {
 .side-nav li.active > a:first-child:not(.button) {
   color: #dc6e77;
   font-weight: normal;
-  font-family: "CRegular", sans-serif;
+  font-family: sans-serif;
 }
 /* line 93, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -6062,7 +6037,7 @@ dialog[open] {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0;
-  font-family: "CRegular", sans-serif;
+  font-family: sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -6341,7 +6316,7 @@ table tr td {
   background-color: #EFEFEF;
   color: #222222;
   padding: 1rem 2rem;
-  font-family: "CRegular", sans-serif;
+  font-family: sans-serif;
   font-size: 1rem;
 }
 /* line 49, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
@@ -6779,7 +6754,7 @@ meta.foundation-mq-topbar {
   color: #FFFFFF;
   padding: 12px 0 12px 0;
   padding-left: 1.04167rem;
-  font-family: "CRegular", sans-serif;
+  font-family: sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   text-transform: none;
@@ -7606,7 +7581,7 @@ p aside {
 /* Default header styles */
 /* line 252, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "CMedium", sans-serif;
+  font-family: sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -9074,18 +9049,18 @@ th.hide-for-touch {
 }
 /* line 8, ../scss/_utilities.scss */
 strong {
-  font-family: "CMedium", sans-serif;
+  font-family: sans-serif;
   letter-spacing: -0.05em;
 }
 
 /* line 12, ../scss/_utilities.scss */
 em {
-  font-family: "CRegularItalic", sans-serif !important;
+  font-family: sans-serif !important;
 }
 
 /* line 15, ../scss/_utilities.scss */
 .heading-big {
-  font-family: "CBold", sans-serif;
+  font-family: sans-serif;
   font-size: 3.5em;
 }
 
@@ -9109,7 +9084,7 @@ a {
   text-align: center;
   font-weight: 600;
   font-size: 1.2em;
-  font-family: "CMedium", sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
   line-height: 1.25em;
   transition: all 0.2s ease-in-out;
@@ -9133,7 +9108,7 @@ a {
   text-align: center;
   font-weight: 600;
   font-size: 1.2em;
-  font-family: "CMedium", sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
   line-height: 1.25em;
   transition: all 0.2s ease-in-out;
@@ -9157,7 +9132,7 @@ a {
   text-align: center;
   font-weight: 600;
   font-size: 1.2em;
-  font-family: "CMedium", sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
   line-height: 1.25em;
   transition: all 0.2s ease-in-out;
@@ -9181,7 +9156,7 @@ a {
   text-align: center;
   font-weight: 600;
   font-size: 1.2em;
-  font-family: "CMedium", sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
   line-height: 1.25em;
   transition: all 0.2s ease-in-out;
@@ -9206,7 +9181,7 @@ a {
   text-align: center;
   font-weight: 600;
   font-size: 1.2em;
-  font-family: "CMedium", sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
   line-height: 1.25em;
   transition: all 0.2s ease-in-out;
@@ -9231,7 +9206,7 @@ a {
   text-align: center;
   font-weight: 600;
   font-size: 1.2em;
-  font-family: "CMedium", sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
   line-height: 1.25em;
   transition: all 0.2s ease-in-out;
@@ -9256,7 +9231,7 @@ a {
   text-align: center;
   font-weight: 600;
   font-size: 1.2em;
-  font-family: "CMedium", sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
   line-height: 1.25em;
   transition: all 0.2s ease-in-out;
@@ -9281,7 +9256,7 @@ a {
   text-align: center;
   font-weight: 600;
   font-size: 1.2em;
-  font-family: "CMedium", sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
   line-height: 1.25em;
   transition: all 0.2s ease-in-out;
@@ -9306,7 +9281,7 @@ a {
   text-align: center;
   font-weight: 600;
   font-size: 1.2em;
-  font-family: "CMedium", sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
   line-height: 1.25em;
   transition: all 0.2s ease-in-out;
@@ -9332,7 +9307,7 @@ a {
   text-align: center;
   font-weight: 600;
   font-size: 1.2em;
-  font-family: "CMedium", sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
   line-height: 1.25em;
   transition: all 0.2s ease-in-out;
@@ -9358,7 +9333,7 @@ a {
   text-align: center;
   font-weight: 600;
   font-size: 1.2em;
-  font-family: "CMedium", sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
   line-height: 1.25em;
   transition: all 0.2s ease-in-out;
@@ -9384,7 +9359,7 @@ a {
   text-align: center;
   font-weight: 600;
   font-size: 1.2em;
-  font-family: "CMedium", sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
   line-height: 1.25em;
   transition: all 0.2s ease-in-out;

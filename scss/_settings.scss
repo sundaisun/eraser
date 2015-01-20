@@ -85,42 +85,17 @@ $include-html-global-classes: $include-html-classes;
 
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-/*============MCD TYPEFACE============*/
-@font-face{
-    font-family: 'CLight';
-    src:local('CLight'),url('../fonts/CLight.otf')format('opentype')
-}
-@font-face{
-    font-family: 'CBold';
-    src:local('CBold'),url('../fonts/CBold.otf')format('opentype')
-}
-@font-face{
-    font-family:'CLightItalic';
-    src:local('CLightItalic'),url('../fonts/CLightItalic.otf')format('opentype')
-}
-@font-face{
-    font-family: 'CMedium';
-    src:local('CMedium'),url('../fonts/CMedium.otf')format('opentype')
-}
-@font-face{
-    font-family: 'CRegular';
-    src:local('CRegular'),url('../fonts/CRegular.otf')format('opentype')
-}
-@font-face{
-    font-family: 'CRegularItalic';
-    src:local('CRegularItalic'),url('../fonts/CRegularItalic.otf')format('opentype')
-}
 
 /*============CUSTOMIZING FOUNDATION STYLE============*/
-$body-font-family:'CRegular', sans-serif;
-$header-font-family:'CMedium', sans-serif;
+$body-font-family: sans-serif;
+$header-font-family: sans-serif;
 $paragraph-line-height:1.4em;
 $paragraph-margin-bottom:1.2em;
 
 /*============SELF-DEFINED FONTS============*/
-$font-button:'CMedium', sans-serif;
-$font-heading-big:'CBold', sans-serif;
-$font-italic:'CRegularItalic',sans-serif;
+$font-button: sans-serif;
+$font-heading-big: sans-serif;
+$font-italic: sans-serif;
 // We use these to define default font stacks
 $font-family-sans-serif: $body-font-family, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
