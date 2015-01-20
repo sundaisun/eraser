@@ -1,3 +1,12 @@
+html,body{
+    height:100%;
+}
+
+/*Full Screen Header*/
+.top-section{
+    height:100%;
+}
+
 .wrapper{
 //    background:linear-gradient(rgba($mcd-yellow, 0.8), rgba($mcd-pink, 0.8)) fixed, url(../img/snow.png);
     background-blend-mode:multiply;

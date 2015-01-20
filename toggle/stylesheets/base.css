@@ -9375,16 +9375,27 @@ a {
 }
 
 /* line 1, ../scss/_theme.scss */
+html, body {
+  height: 100%;
+}
+
+/*Full Screen Header*/
+/* line 6, ../scss/_theme.scss */
+.top-section {
+  height: 100%;
+}
+
+/* line 10, ../scss/_theme.scss */
 .wrapper {
   background-blend-mode: multiply;
 }
 
-/* line 6, ../scss/_theme.scss */
+/* line 15, ../scss/_theme.scss */
 .promo, .event {
   padding-right: 0;
 }
 
-/* line 11, ../scss/_theme.scss */
+/* line 20, ../scss/_theme.scss */
 .logo h1 a {
   background-image: url(../img/logo.png);
   background-position: center;
@@ -9402,7 +9413,7 @@ a {
   -o-transition: all 0.2s ease-in-out;
 }
 
-/* line 26, ../scss/_theme.scss */
+/* line 35, ../scss/_theme.scss */
 #toggle {
   display: block;
   width: 29px;
@@ -9411,7 +9422,7 @@ a {
   padding-top: 23px;
 }
 
-/* line 34, ../scss/_theme.scss */
+/* line 43, ../scss/_theme.scss */
 #toggle span:after,
 #toggle span:before {
   content: "";
@@ -9420,18 +9431,18 @@ a {
   top: -9px;
 }
 
-/* line 41, ../scss/_theme.scss */
+/* line 50, ../scss/_theme.scss */
 #toggle span:after {
   top: 9px;
 }
 
-/* line 44, ../scss/_theme.scss */
+/* line 53, ../scss/_theme.scss */
 #toggle span {
   position: relative;
   display: block;
 }
 
-/* line 49, ../scss/_theme.scss */
+/* line 58, ../scss/_theme.scss */
 #toggle span,
 #toggle span:after,
 #toggle span:before {
@@ -9447,59 +9458,59 @@ a {
 }
 
 /* on activation */
-/* line 61, ../scss/_theme.scss */
+/* line 70, ../scss/_theme.scss */
 #toggle.on span {
   background-color: transparent;
 }
 
-/* line 64, ../scss/_theme.scss */
+/* line 73, ../scss/_theme.scss */
 #toggle.on span:before {
   transform: rotate(45deg) translate(5px, 5px);
   -webkit-transform: rotate(45deg) translate(5px, 5px);
 }
 
-/* line 68, ../scss/_theme.scss */
+/* line 77, ../scss/_theme.scss */
 #toggle.on span:after {
   transform: rotate(-45deg) translate(7px, -8px);
   -webkit-transform: rotate(-45deg) translate(7px, -8px);
 }
 
-/* line 72, ../scss/_theme.scss */
+/* line 81, ../scss/_theme.scss */
 #toggle.on + #menu {
   opacity: 1;
 }
 
-/* line 77, ../scss/_theme.scss */
+/* line 86, ../scss/_theme.scss */
 .right-off-canvas-menu ul.off-canvas-list li.has-submenu > a:before {
   content: "▸";
 }
 
-/* line 82, ../scss/_theme.scss */
+/* line 91, ../scss/_theme.scss */
 .hero-images img {
   width: 100%;
   height: auto;
 }
 
-/* line 89, ../scss/_theme.scss */
+/* line 98, ../scss/_theme.scss */
 .promo img, .event img {
   width: 100%;
   height: auto;
   margin-bottom: 10px;
 }
 
-/* line 96, ../scss/_theme.scss */
+/* line 105, ../scss/_theme.scss */
 .instagram {
   background-color: #F5F5F5;
   padding-top: 20px;
 }
-/* line 99, ../scss/_theme.scss */
+/* line 108, ../scss/_theme.scss */
 .instagram img {
   width: 90%;
   margin-top: 5px;
   margin-bottom: 15px;
 }
 
-/* line 107, ../scss/_theme.scss */
+/* line 116, ../scss/_theme.scss */
 .footer-btm {
   background-color: #333333;
   padding: 38px 0 40px;
@@ -9507,25 +9518,25 @@ a {
   color: #EEEEEE;
   margin-top: 50px;
 }
-/* line 113, ../scss/_theme.scss */
+/* line 122, ../scss/_theme.scss */
 .footer-btm ul {
   float: none;
   margin: 0 0 20px 0;
   text-align: center;
   display: inline-block;
 }
-/* line 118, ../scss/_theme.scss */
+/* line 127, ../scss/_theme.scss */
 .footer-btm ul li {
   list-style: none;
   display: block;
   float: left;
   margin-left: 30px;
 }
-/* line 123, ../scss/_theme.scss */
+/* line 132, ../scss/_theme.scss */
 .footer-btm ul li:first-child {
   margin-left: 0;
 }
-/* line 126, ../scss/_theme.scss */
+/* line 135, ../scss/_theme.scss */
 .footer-btm ul li a {
   color: #999999;
   font-size: 2.2em;
@@ -9534,13 +9545,13 @@ a {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
 }
-/* line 130, ../scss/_theme.scss */
+/* line 139, ../scss/_theme.scss */
 .footer-btm ul li a:hover {
   color: gray;
 }
 
 @media only screen and (min-width: 64.063em) {
-  /* line 139, ../scss/_theme.scss */
+  /* line 148, ../scss/_theme.scss */
   .logo h1 a {
     width: 75px !important;
     height: 75px !important;
@@ -9552,7 +9563,7 @@ a {
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 148, ../scss/_theme.scss */
+  /* line 157, ../scss/_theme.scss */
   .logo h1 a {
     width: 60px !important;
     height: 60px !important;
