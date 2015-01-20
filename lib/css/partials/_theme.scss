@@ -1,0 +1,265 @@
+body{
+    background-color:$color-cream;
+}
+
+
+div.header, div.header-wrapper{
+    display:block;
+    position:relative;
+    margin:0 auto;
+    width:100%;
+    max-height:600px;
+    min-height:450px;
+    max-width:1600px;
+    z-index:0;
+}
+
+
+.nav{
+    position:absolute;
+    left:60px;
+    top:50px;
+    z-index:9998;
+    font-weight:700;
+    ul li{
+        float:left;
+        }
+    }
+
+.nav ul li a{
+    border-bottom:none;
+}
+
+#logo{
+    display:block;
+    width:150px;
+    height:100px;
+    border-bottom:none;
+    &>a>img{
+    display:block;
+    width:85%;
+    height:85%;
+    margin-top:-25px;
+    }
+    &>a:hover, &>a>img:hover{
+        border-bottom:none;
+    }
+}
+
+.hero-wrapper{
+    position:relative;
+}
+
+.hero {     
+        position:absolute;
+		margin-left:auto;
+        margin-right:auto;
+        z-index:0;
+        top:0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+        max-height:600px;
+        min-height:450px;
+		overflow: hidden;
+        //@include gradient(40%, 60%, 90%);
+        background-image:url(../images/overlay.png);
+        background-color:rgba($color-black,0.95);
+	}
+
+
+// .hero-slides:before{
+//         position:absolute;
+//         top:0;
+//         left:0;
+//         content:'';
+//         width:100%;
+//         height:100%;
+//         opacity:0.45;
+// }
+
+
+.hero-slides>img {
+		display:block;
+        max-width:1600px;
+        height:auto;
+        opacity:0;
+        position:absolute;
+        top:0;
+        left:0;
+        transition: opacity 3s;
+	}
+
+.hero-slides>.faded {
+    opacity:0.65;
+}
+
+ul.arrows{
+    position:absolute;
+    color:white;
+    top:380px;
+    left:45%;
+    list-style: none;
+    li{
+       float:left;
+       font-size:2em;
+       margin-right:40px;
+       cursor:pointer;
+       &:hover{
+           color:$color-teal;
+       }
+    }
+
+}
+
+.slideshow-captions-all {
+		position: absolute;
+        width:100%;
+        top:0;
+        left:0;
+		line-height: 1.2em;
+		padding-top: 420px;
+		padding-left:80px;
+	}
+	
+	.slideshow-caption{
+        position: absolute;
+         z-index: 9999;
+        bottom:20px;
+		color:lighten($color-cream,10%);
+        margin: 10px;
+        opacity:0;
+        transition:opacity 1s;
+        h2{
+            text-transform: uppercase;
+            line-height:1em;
+            small{
+                opacity:1;
+                background:$color-red;
+                padding-left:1.5em;
+                padding-right:1.5em;
+                text-align:left;
+            }
+        }
+        p{
+            width:75%;
+        }
+        &.faded {
+            opacity:1;
+        }
+	}
+
+#about-header{
+    height:100%;
+    background-image:url(../images/about/letterpress.png);
+    background-size:cover;
+    background-position:center;
+}
+//footer
+footer{
+    display:block;
+    background: $color-black;
+    color:white;
+    margin-top:100px;
+    padding-top:40px;
+    height:100px;
+    bottom:0;
+}
+
+//MOVIE INFO
+.videos{
+        max-height:800px;
+        min-height:600px;
+        h1{
+            text-transform: uppercase;
+            margin-top:30px;
+            font-size:3em;
+            line-height: 1em;
+        }
+        
+        &>.slideshow-captions-all{
+            padding-top:450px;
+            .slideshow-caption{
+                opacity:1;
+            }
+        }
+}
+
+.hero-video video{
+    width:100%;
+    height:auto;
+    margin-top:-110px;
+}
+
+.hero-video:before{
+        position:absolute;
+        top:0;
+        left:0;
+        content:'';
+        width:100%;
+        height:100%;
+        opacity:0.15;
+        background-image:url(../images/overlay.png);
+}
+
+.hero-about:before{
+    @extend .hero-video:before;
+    @include gradient();
+    opacity:0.5;
+}
+
+.movie-info{
+    position:relative;
+    display:block;
+    background-color:white;
+    height:100%;
+    div.row{
+        padding-left:7%;
+        padding-right:8%;
+        padding-top:5%;
+    }
+    table{
+        th.col-xs-4, td.col-xs-8{
+            margin-bottom:0;
+        }
+    }
+    button{
+        margin-top:40px;
+    }
+}
+
+.cast td{
+            margin-left:5px;
+}
+
+.cast td.col-xs-12{
+   margin-bottom:0;
+}
+
+.maps{
+    margin-bottom:150px;
+    margin-top:20px;
+}
+
+
+//media query
+@media (min-width:0px) and (max-width:640zpx){
+    ul.arrows{
+        left:35%;
+    }
+}
+
+@media (min-width: 0px) and (max-width:1200px){
+    .hero-video video{
+        display:none;
+    }
+    #godzilla{
+        background-image:url(../images/Godzilla-2014-Background-For-Wallpaper-Godzilla-2014-56912.jpg);
+        background-size:cover;
+    }
+    #interview{
+                background-image:url(../images/interview.jpg);
+        background-size:cover;
+    }
+    
+}
