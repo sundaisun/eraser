@@ -44,7 +44,7 @@
 </script>
 -->
     <script src="/js/classie.js"></script>
-    <script src="/js/demo1.js"></script>
+    <script src="/js/overlay-nav.js"></script>
 <script>
     //sticky footer
          $(window).bind("load", function () {

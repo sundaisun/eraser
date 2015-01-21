@@ -16,19 +16,11 @@
 		<div class="container top-section">
 			<!-- Top Navigation -->
 			<header class="codrops-header">
-				<h1>Fullscreen Overlay Styles &amp; Effects</h1>	
-				<nav class="codrops-demos">
-					<a href="index.html">Huge Inc</a>
-					<a href="index2.html">Corner</a>
+				<div><img src="/img/hero.png" alt="Xiangpihui"></div>	
+				<nav>
 					<a href="index3.html">Slide down</a>
 					<a class="current-demo" href="index5.html">Scale</a>
 					<a href="index6.html">Door</a>
-					<a href="index7.html">Content Push</a><br/>
-					<a href="index8.html">Content Scale</a>
-					<a href="index9.html">Corner Shape</a>
-					<a href="index10.html">Little Boxes</a>
-					<a href="index11.html">Simple Genie</a>
-					<a href="index12.html">Genie</a>
 				</nav>
 			</header>
 			<section>
