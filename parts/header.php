@@ -13,31 +13,29 @@
         <script src="bower_components/modernizr/modernizr.js"></script>
 	</head>
 	<body>
-		<div class="container top-section">
+		<div class="top-section">
 			<!-- Top Navigation -->
-			<header class="codrops-header">
-				<div><img src="/img/hero.png" alt="Xiangpihui"></div>	
-				<nav>
-					<a href="index3.html">Slide down</a>
-					<a class="current-demo" href="index5.html">Scale</a>
-					<a href="index6.html">Door</a>
+			<header>
+				<div id="hero-image"><img src="/img/hero.png" alt="Xiangpihui"></div>	
+				<nav class="Source-Han-Light">
+					<a href="#">关于本站</a>
+					<a href="#">橡皮展示</a>
+					<a href="#">联系我们</a>
 				</nav>
 			</header>
-			<section>
-				<p>Overlay scale up and fades in.</p>
-				<p><button id="trigger-overlay" type="button">Open Overlay</button></p>
-			</section>
-		</div><!-- /container -->
+				<div id="trigger-overlay" class="menu-icon" type="button"><a id="toggle"><span></span></a></div>
+				<div id="scroll-down"></div>
+		</div><!-- top section -->
 		<!-- open/close -->
-		<div class="overlay overlay-scale">
+		<div class="overlay overlay-hugeinc">
 <!--			<button type="button" class="overlay-close">Close</button>-->
-        <button type="button" class="overlay-close">Close</button>
+        <button type="button" class="overlay-close Source-Han-Light">关闭</button>
 			<nav>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Work</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Contact</a></li>
+				<ul class="Source-Han-Light">
+					<li><a href="#">回到首页</a></li>
+					<li><a href="#">关于本站</a></li>
+					<li><a href="#">橡皮展示</a></li>
+					<li><a href="#">联系我们</a></li>
 				</ul>
 			</nav>
 		</div>

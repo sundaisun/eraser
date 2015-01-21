@@ -5,6 +5,29 @@
 	-moz-transition: all $sec ease-in-out;
     -o-transition: all $sec ease-in-out;}
 
+@mixin flight($sec:3s){
+    animation:flight $sec ease-in-out infinite;
+    -webkit-animation:flight $sec ease-in-out infinite;
+    -moz-animation:flight $sec ease-in-out infinite;
+    -ms-animation:flight $sec ease-in-out infinite;
+    @keyframes flight{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+} 
+    @-webkit-keyframes flight{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+} 
+    @-moz-keyframes flight{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+
+}
+
 strong{
     font-family:$header-font-family;
     letter-spacing:-0.05em;
@@ -18,6 +41,11 @@ em{
 }
 a{
     @include ease-in-out();
+}
+
+@mixin centered(){
+    margin:0 auto;
+    text-align: center;
 }
 
 /*============BUTTON MIXINS============*/
