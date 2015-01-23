@@ -112,28 +112,3 @@ a{
     }
 }
 
-/*============BUTTON CLASSES============*/
-.btn-red{
-    @include button($mcd-red);}
-.btn-blue{
-    @include button($mcd-blue);}
-.btn-orange{
-    @include button($mcd-orange);}
-.btn-cream{
-    @include button($mcd-cream);}
-.btn-red-round{
-    @include button-round($mcd-red);}
-.btn-blue-round{
-    @include button-round($mcd-blue);}
-.btn-orange-round{
-    @include button-round($mcd-orange);}
-.btn-cream-round{
-    @include button-round($mcd-cream);}
-.btn-red-solid{
-    @include button-solid($mcd-red);}
-.btn-blue-solid{
-    @include button-solid($mcd-blue);}
-.btn-orange-solid{
-    @include button-solid($mcd-orange);}
-.btn-cream-solid{
-    @include button-solid($mcd-cream);}

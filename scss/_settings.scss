@@ -106,16 +106,6 @@ $font-family-sans-serif: $body-font-family, "Helvetica Neue", Helvetica, Roboto,
 // $font-weight-bold: bold !default;
 
 /*============MCD COLORS============*/
-$mcd-red:rgb(205,49,61);
-$mcd-yellow:rgb(255,193,72);
-$mcd-green:rgb(0,169,104);
-$mcd-teal:rgb(0,176,182);
-$mcd-blue:rgb(0,136,201);
-$mcd-purple:rgb(83,45,86);
-$mcd-brown:rgb(91,52,39);
-$mcd-orange:rgb(226,154,61);
-$mcd-cream:rgb(241,189,162);
-$mcd-pink:rgb(240,88,82);
 $white       : #FFFFFF;
 $ghost       : #FAFAFA;
 $snow        : #F9F9F9;
@@ -137,11 +127,6 @@ $jet         : #222222;
 $black       : #000000;
 
 $primary-color: rgb(235, 84, 72);
-$secondary-color: $mcd-yellow;
-$alert-color: $mcd-orange;
-$success-color: $mcd-green;
-$warning-color: $mcd-red;
-$info-color: $mcd-teal;
 
 // We use these to control various global styles
 // $body-bg: $white;

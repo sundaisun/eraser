@@ -31,6 +31,7 @@ header nav{
     position:fixed;
     right:5%;
     top:5%;
+    z-index:200;
 }
 
 #scroll-down{
@@ -93,21 +94,23 @@ header nav{
   border-radius: 1px;
 }
 //
-///* on activation */
-//#toggle.on span {
-//  background-color: transparent;
-//}
-//#toggle.on span:before {
-//  transform: rotate(45deg) translate(5px, 5px);
-//  -webkit-transform: rotate(45deg) translate(5px, 5px);
-//}
-//#toggle.on span:after {
-//  transform: rotate(-45deg) translate(7px, -8px);
-//  -webkit-transform:rotate(-45deg) translate(7px, -8px);
-//}
-//#toggle.on + #menu {
-//  opacity: 1;
-//}
+/* on activation */
+#toggle.on span {
+  background-color: transparent;
+}
+#toggle.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+  -webkit-transform: rotate(45deg) translate(5px, 5px);
+  background-color: $snow;
+}
+#toggle.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+  -webkit-transform:rotate(-45deg) translate(7px, -8px);
+  background-color: $snow;
+}
+#toggle.on + #menu {
+  opacity: 1;
+}
 //TOGGLE MENU STYLE END=======================================
 
 //OFF-CANVAS
